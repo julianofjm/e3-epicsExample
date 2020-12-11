@@ -1,0 +1,50 @@
+>>
+Script is used     : e3TemplateGenerator.bash
+Script Path        : /home/vagrant/ics_gitsrc/e3-tools/e3TemplateGenerator
+Script Version     : 1.0.8
+Script Run Time    : 2020Dec11-1206-46CET
+User               : vagrant
+e3-tools Hash      : f774945
+>>
+>> git diff 
+diff --git a/e3TemplateGenerator/modules_conf/fimscb.conf b/e3TemplateGenerator/modules_conf/fimscb.conf
+index c0385f7..0bbb3ef 100644
+--- a/e3TemplateGenerator/modules_conf/fimscb.conf
++++ b/e3TemplateGenerator/modules_conf/fimscb.conf
+@@ -1,5 +1,5 @@
+ EPICS_MODULE_NAME:=fimscb
+ EPICS_MODULE_URL:=https://github.com/icshwi
+-E3_TARGET_URL:=https://github.com/jeonghanlee
++E3_TARGET_URL:=https://github.com/julianofjm
+ E3_MODULE_SRC_PATH:=fimscb
+ 
+
+>>
+>> git diff --cached
+
+>>
+>> git diff HEAD
+diff --git a/e3TemplateGenerator/modules_conf/fimscb.conf b/e3TemplateGenerator/modules_conf/fimscb.conf
+index c0385f7..0bbb3ef 100644
+--- a/e3TemplateGenerator/modules_conf/fimscb.conf
++++ b/e3TemplateGenerator/modules_conf/fimscb.conf
+@@ -1,5 +1,5 @@
+ EPICS_MODULE_NAME:=fimscb
+ EPICS_MODULE_URL:=https://github.com/icshwi
+-E3_TARGET_URL:=https://github.com/jeonghanlee
++E3_TARGET_URL:=https://github.com/julianofjm
+ E3_MODULE_SRC_PATH:=fimscb
+ 
+
+
+>>
+>> Your sources are located in e3-epicsExample.
+>> 
+EPICS_MODULE_NAME  : epicsExample
+E3_MODULE_SRC_PATH : epicsExample
+E3_TARGET_URL      : https://github.com/julianofjm
+>> 
+e3 module name     : e3-epicsExample
+e3 target url full : https://github.com/julianofjm/e3-epicsExample.git
+>> 
+e3 module is located in siteMods
